@@ -3,7 +3,7 @@
 import os
 
 print('###############################################################')
-print(' I am starting my revision of all pythong modules on 14- June25')
+print(' I am starting my revision of all python modules on 14- June25')
 print('###############################################################')
 print('There are 4 types of Data Types in python')
 print('INTEGER.STRING,BOOLEAN,FLOAT')
@@ -324,5 +324,31 @@ print('###############################################################')
 print('###############################################################')
 print('###############################################################')
 
+
+
+# Python
+def call_Parvathi(lsname='Beloved Disciple....'):
+    return '\n Devi Parvathi has blessed you:' + lsname
+
+def my_Func_args(*args):
+    return sum(args)
+
+
+# Python
+def add_numbers():
+    # Accept two numbers from the user
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    # Perform addition
+    result = num1 + num2
+
+
+    # Display the input numbers and the result
+    print(f"First number is {num1} and the second number is {num2}. The output of {num1} + {num2} = {result}")
+
+
+# Call the function
+add_numbers()
 
 
